@@ -11,19 +11,18 @@ export default class Header extends Component {
         <div className="row">
           <div className="twelve columns">
             <ul className="social-links">
-              <li><a href="#"><i className="fa fa-facebook" /></a></li>
-              <li><a href="#"><i className="fa fa-twitter" /></a></li>
-              <li><a href="#"><i className="fa fa-google-plus" /></a></li>
-              <li><a href="#"><i className="fa fa-linkedin" /></a></li>
-              <li><a href="#"><i className="fa fa-instagram" /></a></li>
-              <li><a href="#"><i className="fa fa-dribbble" /></a></li>
-              <li><a href="#"><i className="fa fa-skype" /></a></li>
+            <li><a href="http://facebook.com/Atishay5"><i className="fa fa-facebook" /></a></li>
+              <li><a href="http://www.twitter.com/_atishayJain"><i className="fa fa-twitter" /></a></li>
+              <li><a href="http://www.linkedin.com/in/atishay5"><i className="fa fa-linkedin" /></a></li>
+              <li><a href="http://instagram.com/_atishay.jain"><i className="fa fa-instagram" /></a></li>
+              {/* <li><a href="#"><i className="fa fa-dribbble" /></a></li> */}
+              {/* <li><a href="#"><i className="fa fa-skype" /></a></li> */}
             </ul>
-            <ul className="copyright">
+            {/* <ul className="copyright">
               <li>© Copyright 2014 CeeVee</li>
               <li>Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a></li>   
-            </ul>
-          </div>
+  </ul>*/}
+          </div> 
           <div id="go-top"><a className="smoothscroll" title="Back to Top" href="#home"><i className="icon-up-open" /></a></div>
         </div>
       </footer> {/* Footer End*/}

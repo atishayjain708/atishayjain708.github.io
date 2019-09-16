@@ -10,28 +10,9 @@ export default class Header extends Component {
           </div>
           <div className="nine columns main-col">
             <h2>About Me</h2>
-            <p>Hi, I am Atishay Jain - a Computer Science engineering Junior year student. I have experience working with Python and using and deploying end to end solutions, mostly using web as the platform. Currently I’m working in and increasing my knowledge of the machine learning and data-science domain. I have experience working with Django, Docker, using Jekyll templates and Tensorflow.
+            <p>Hi, I am Atishay Jain - a Computer Science engineering Final year student. I am greatly interested in computer science and finance.
+              in the field of development, I have experience with languages such as Python, Java, Javascript, C++, and basic HTML/CSS. I have also had some experience using tools and frameworks such as Tensorflow, ReactJS, Docker and AWS. Currently I’m working in and increasing my knowledge of the machine learning and data-science domain, focussing specifically on deep learning and neural networks.
             </p>
-            <div className="row">
-              <div className="columns contact-details">
-                <h2>Contact Details</h2>
-                <p className="address">
-                  <span>Atishay Jain</span><br />
-                  <span>Shiv Nadar University<br/>
-                    Gautam Buddha Nagar, UP - 203207.
-                  </span><br />
-                  <span>+91-8791355940</span><br/>
-                  <span>atishayjain708@gmail.com</span><br/>
-                  <span>aj771@snu.edu.in</span><br/>
-
-                </p>
-              </div>
-              <div className="columns download">
-                <p>
-                  <a href="#" className="button"><i className="fa fa-download" />Download Resume</a>
-                </p>
-              </div>
-            </div> {/* end row */}
           </div> {/* end .main-col */}
         </div>
       </section> 

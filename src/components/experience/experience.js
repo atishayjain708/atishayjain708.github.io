@@ -14,6 +14,13 @@ export default class Header extends Component {
           <div className="nine columns main-col">
             <div className="row item">
               <div className="twelve columns">
+                <h3>Viasat Inc. Chennai</h3>
+                <p className="info">Software Development Intern<span>•</span> <em className="date">May 2019 - July 2019</em></p>
+                <p>
+                  Worked at <a href="www.viasat.com">Viasat Inc.</a> to develop a network traffic classifier that used Neural Netowrks to classify network traffic. The goal was to improve upon the current techniques that were slow and expensive and relying on decrypting data packets. Built the model for an LSTM that was able to successfully classify packets into one of 7 classes: YouTube, Netflix, Amazon Prime, Spotify, Reddit, Wikipedia, PlayStation Gaming, and, Quora.
+                </p>
+              </div>
+              <div className="twelve columns">
                 <h3>Indian Institute of Information Technology, Allahabad</h3>
                 <p className="info">Summer Research Intern<span>•</span> <em className="date">May 2018 - July 2018</em></p>
                 <p>
@@ -31,7 +38,7 @@ export default class Header extends Component {
               </div>
             </div> {/* item end */}
           </div> {/* main-col end */}
-        </div> {/* End Work */}}
+        </div> {/* End Work */}
         </section>
       }
       </React.Fragment>

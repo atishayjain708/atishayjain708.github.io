@@ -5,54 +5,60 @@ export default class Header extends Component {
       <React.Fragment>
       {/* Contact Section
    ================================================== */}
+   
       <section id="contact">
-        <div className="row section-head">
+      <div className="row education">
+          <div className="three columns header-col">
+            <h1><span>Get in Touch!</span></h1>
+          </div>
+          <div className="nine columns main-col">
+            <div className="row item">
+              <div className="twelve columns">
+                <h3>Atishay Jain</h3>
+                <p className="info">Student, Shiv Nadar University </p>
+                <h2><p className="address">
+                <h2>Phone: +91-8791355940</h2><br/>
+                <h2>Email: <br/> atishayjain708@gmail.com<br/>
+                  aj771@snu.edu.in<br/></h2>
+                <h2>Address: <br/>Shiv Nadar University<br/>
+                    Gautam Buddha Nagar, UP - 203207.
+                  <br/></h2>
+                </p></h2>
+              </div>
+            </div> {/* item end */}
+          </div> {/* main-col end */}
+        </div> {/* End Education */}
+      {/* <div className="row">
+              <div className="columns contact-details">
+                <h1>Contact Details</h1>
+                <h2><p className="address">
+                  <h2>Atishay Jain</h2><br />
+                  <h2>Shiv Nadar University<br/>
+                    Gautam Buddha Nagar, UP - 203207.
+                  </h2><br />
+                  <h2>+91-8791355940</h2><br/>
+                  <span>atishayjain708@gmail.com</span><br/>
+                  <span>aj771@snu.edu.in</span><br/>
+
+                </p></h2>
+              </div>
+              <div className="columns download">
+                <p>
+                  <a href="#" className="button"><i className="fa fa-download" />Download Resume</a>
+                </p>
+              </div>
+            </div> end row */}
+            {/* </div> End 3 columns */}
+        {/* <div className="row section-head">
           <div className="two columns header-col">
             <h1><span>Get In Touch.</span></h1>
           </div>
           <div className="ten columns">
             <p className="lead">
-            Want to get in touch? Feel free to reach out to me on my email address or fill out this form below!
+            Want to get in touch? Feel free to reach out to me on my email address!
             </p>
           </div>
-        </div>
-        <div className="row">
-          <div className="eight columns">
-            {/* form */}
-            <form action method="post" id="contactForm" name="contactForm">
-              <fieldset>
-                <div>
-                  <label htmlFor="contactName">Name <span className="required">*</span></label>
-                  <input type="text" defaultValue size={35} id="contactName" name="contactName" />
-                </div>
-                <div>
-                  <label htmlFor="contactEmail">Email <span className="required">*</span></label>
-                  <input type="text" defaultValue size={35} id="contactEmail" name="contactEmail" />
-                </div>
-                <div>
-                  <label htmlFor="contactSubject">Subject</label>
-                  <input type="text" defaultValue size={35} id="contactSubject" name="contactSubject" />
-                </div>
-                <div>
-                  <label htmlFor="contactMessage">Message <span className="required">*</span></label>
-                  <textarea cols={50} rows={15} id="contactMessage" name="contactMessage" defaultValue={""} />
-                </div>
-                <div>
-                  <button className="submit">Submit</button>
-                  <span id="image-loader">
-                    <img alt src="images/loader.gif" />
-                  </span>
-                </div>
-              </fieldset>
-            </form> {/* Form End */}
-            {/* contact-warning */}
-            <div id="message-warning"> Error boy</div>
-            {/* contact-success */}
-            <div id="message-success">
-              <i className="fa fa-check" />Your message was sent, thank you!<br />
-            </div>
-          </div>
-          <aside className="four columns footer-widgets">
+          <center className="four columns footer-widgets">
             <div className="widget widget_contact">
               <h4>Address and Phone</h4>
               <p className="address">
@@ -65,7 +71,7 @@ export default class Header extends Component {
                   <span>aj771@snu.edu.in</span><br/>
 
                 </p>
-            </div>
+            </div> */}
             {/* <div className="widget widget_tweets">
               <h4 className="widget-title">Latest Tweets</h4>
               <ul id="twitter">
@@ -87,8 +93,8 @@ export default class Header extends Component {
                 </li>
               </ul>
             </div> */}
-          </aside>
-        </div>
+          {/* </center> */}
+        {/* </div> */}
       </section> {/* Contact Section End*/}
       </React.Fragment>
     );
