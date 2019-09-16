@@ -344,12 +344,12 @@ ul#nav li.current a { color: #F06000; }
    overflow: hidden;
 }
 #portfolio h1 {
-   font: 15px/24px 'opensans-semibold', sans-serif;
+   font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
    text-align: center;
    margin-bottom: 48px;
-   color: #95A3A3;
+   color: rgb(36, 37, 37);
 }
 
 
@@ -366,7 +366,7 @@ ul#nav li.current a { color: #F06000; }
 #skills h1 span{
    font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
-   letter-spacing: 2px;
+   letter-spacing: 1px;
    border-bottom: 3px solid #11ABB0;
    padding-bottom: 6px;
 }
@@ -755,7 +755,7 @@ ul#nav li.current a { color: #F06000; }
 #contact h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
-   letter-spacing: 3px;
+   letter-spacing: 1px;
    color: #fff;
    margin-bottom: 6px;
 }
