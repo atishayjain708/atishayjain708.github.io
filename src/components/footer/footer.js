@@ -18,10 +18,6 @@ export default class Header extends Component {
               {/* <li><a href="#"><i className="fa fa-dribbble" /></a></li> */}
               {/* <li><a href="#"><i className="fa fa-skype" /></a></li> */}
             </ul>
-            {/* <ul className="copyright">
-              <li>© Copyright 2014 CeeVee</li>
-              <li>Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a></li>   
-  </ul>*/}
           </div> 
           <div id="go-top"><a className="smoothscroll" title="Back to Top" href="#home"><i className="icon-up-open" /></a></div>
         </div>
