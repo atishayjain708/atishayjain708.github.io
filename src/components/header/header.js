@@ -20,7 +20,7 @@ export default class Header extends Component {
         <div className="row banner">
           <div className="banner-text">
             <h1 className="responsive-headline">I'm Atishay Jain.</h1>
-            <h3>I'm a junior year student at <span>Shiv Nadar University</span>, majoring in <span>Computer Science and Engineering</span>. I have undertaken projects revolving around frameworks like <span>React, Node and MongoDB</span>. I am well-versed with the concepts of OOPS and also have experience with Android Development. Infact, an app <span><a href="https://play.google.com/store/apps/details?id=garbagecollectors.com.unipool">Unipool</a></span> that I worked on, as part of a team, is up on the Play Store. Currently, I'm working on projects in <span>Deep Learning</span> and <span>Data Mining</span>. Start scrolling to learn more <a className="smoothscroll" href="#about">about me</a>.</h3>
+            <h3>I'm a junior year student at <span>Shiv Nadar University</span>, majoring in <span>Computer Science and Engineering</span>. I have undertaken projects revolving around frameworks like <span>React, Node and MongoDB</span>. Currently, I'm working on projects in <span>Deep Learning</span> and <span>Data Mining</span>. Start scrolling to learn more <a className="smoothscroll" href="#about">about me</a>.</h3>
             <hr />
             <ul className="social">
               <li><a href="http://facebook.com/Atishay5"><i className="fa fa-facebook" /></a></li>

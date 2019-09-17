@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-export default class Header extends Component {
+export default class Portfolio extends Component {
   componentDidMount () {
     const script = document.createElement("script");
 
