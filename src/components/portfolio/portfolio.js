@@ -14,9 +14,10 @@ export default class Portfolio extends Component {
       <React.Fragment>
       {
         <section id="portfolio">
-        <div className="row">
-          <div className="twelve columns collapsed">
-            <h1>A glimpse at some of my Github repositories.</h1>
+        <div className="row portfolio">
+          <div className="three columns header-col">
+            <h1><span>My Projects</span></h1>
+          </div>
             {/* portfolio-wrapper */}
             <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
               <div className="columns portfolio-item">
@@ -39,7 +40,7 @@ export default class Portfolio extends Component {
                   </a>
                 </div>
               </div> {/* item end */}
-              <div className="columns portfolio-item">
+              {/* <div className="columns portfolio-item">
                 <div className="item-wrap">
                   <a href="#modal-03" title>
                     <div className="overlay">
@@ -48,17 +49,8 @@ export default class Portfolio extends Component {
                     
                   </a>
                 </div>
-              </div> {/* item end */}
-              <div className="columns portfolio-item">
-                <div className="item-wrap">
-                  <a href="#modal-04" title>
-                    <div className="overlay">
-                    <div class="github-card" data-github="atishayjain708/image-classification-CIFAR10-tf" data-width="275" data-height="175" data-theme="default"></div>
-                    </div>
-                    
-                  </a>
-                </div>
-              </div> {/* item end */}
+              </div> item end */}
+
               <div className="columns portfolio-item">
                 <div className="item-wrap">
                   <a href="#modal-05" title>
@@ -69,17 +61,8 @@ export default class Portfolio extends Component {
                   </a>
                 </div>
               </div> {/* item end */}
-              <div className="columns portfolio-item">
-                <div className="item-wrap">
-                  <a href="#modal-06" title>
-                    <div className="overlay">
-                    <div class="github-card" data-github="atishayjain708/awesome-competitive-programming" data-width="275" data-height="175" data-theme="default"></div>
-                    </div>
-                    
-                  </a>
-                </div>
-              </div> {/* item end */}
-              <div className="columns portfolio-item">
+
+              {/* <div className="columns portfolio-item">
                 <div className="item-wrap">
                   <a href="#modal-07" title>
                     <div className="overlay">
@@ -88,20 +71,12 @@ export default class Portfolio extends Component {
                     
                   </a>
                 </div>
-              </div> {/* item end */}
-              <div className="columns portfolio-item">
-                <div className="item-wrap">
-                  <a href="#modal-08" title>
-                    <div className="overlay">
-                    <div class="github-card" data-github="atishayjain708/AttendanceMonitor" data-width="275" data-height="175" data-theme="default"></div>
-                    </div>
-                    
-                  </a>
-                </div>
-              </div>  {/* item end */}
+              </div> item end */}
+
             </div> {/* portfolio-wrapper end */}
-          </div> {/* twelve columns end */}
-        </div></section>
+          </div> {/* three columns end */}
+          <h2>...and many more at my <a href="https://github.com/atishayjain708" >GitHub repository</a>. Do check it out!</h2>
+        </section>
       }
       </React.Fragment>
     );

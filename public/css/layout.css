@@ -256,8 +256,6 @@ ul#nav li.current a { color: #F06000; }
    padding-top: 90px;
    padding-bottom: 72px;
    overflow: hidden;
-   /* width: 80%;
-   margin: 0 auto; */
 }
 
 #work a, #experience a:visited  { color: #11ABB0; }
@@ -364,15 +362,23 @@ ul#nav li.current a { color: #F06000; }
    padding-bottom: 72px;
    overflow: hidden;
 }
-#portfolio h1 {
+#portfolio h1 span{
    font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
-   text-align: center;
    margin-bottom: 48px;
    color: rgb(36, 37, 37);
+   padding-bottom: 6px;
+   border-bottom: 3px solid #11ABB0;
+   margin-left: 20%;
 }
 
+#portfolio h2{
+   font: 18px/24px 'opensans-bold', sans-serif;
+   padding-top: 26px;
+   padding-bottom: 6px;
+   text-align: center;
+}
 
 /* ------------------------------------------------------------------ */
 /* g. skills Section
